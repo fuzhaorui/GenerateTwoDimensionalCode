@@ -15,6 +15,7 @@
 		28ED798A1D38D75D00005E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ED79881D38D75D00005E6C /* LaunchScreen.storyboard */; };
 		28ED79951D38D75E00005E6C /* shengchengerweiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ED79941D38D75E00005E6C /* shengchengerweiTests.m */; };
 		28ED79A01D38D75E00005E6C /* shengchengerweiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ED799F1D38D75E00005E6C /* shengchengerweiUITests.m */; };
+		28ED79AF1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ED79AE1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28ED799B1D38D75E00005E6C /* shengchengerweiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shengchengerweiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ED799F1D38D75E00005E6C /* shengchengerweiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shengchengerweiUITests.m; sourceTree = "<group>"; };
 		28ED79A11D38D75E00005E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ED79AD1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GenerateTwoDimensionalCode.h"; sourceTree = "<group>"; };
+		28ED79AE1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GenerateTwoDimensionalCode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				28ED79881D38D75D00005E6C /* LaunchScreen.storyboard */,
 				28ED798B1D38D75D00005E6C /* Info.plist */,
 				28ED797A1D38D75D00005E6C /* Supporting Files */,
+				28ED79AD1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.h */,
+				28ED79AE1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.m */,
 			);
 			path = shengchengerwei;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				28ED79821D38D75D00005E6C /* ViewController.m in Sources */,
 				28ED797F1D38D75D00005E6C /* AppDelegate.m in Sources */,
 				28ED797C1D38D75D00005E6C /* main.m in Sources */,
+				28ED79AF1D38DC0200005E6C /* UIViewController+GenerateTwoDimensionalCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

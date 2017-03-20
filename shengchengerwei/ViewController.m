@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIViewController+GenerateTwoDimensionalCode.h"
 
 @interface ViewController ()
 
+@property (strong ,nonatomic) IBOutlet UIImageView  *imageView;
 @end
 
 @implementation ViewController
@@ -17,7 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.imageView.image = [self creatQrCodeAction:@"www.huodull.com" withSize:self.imageView.frame.size.height];
+    
 }
+
+///创建二维码的过程
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
